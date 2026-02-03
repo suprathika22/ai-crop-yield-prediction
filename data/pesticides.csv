@@ -1,0 +1,92 @@
+crop,common_disease,pest_type,recommended_pesticide,usage_note
+
+Rice,Blast,Fungus,Tricyclazole,Apply during early infection
+Rice,Bacterial Leaf Blight,Bacteria,Streptocycline,Spray after symptoms appear
+Rice,Stem Borer,Insect,Chlorantraniliprole,Apply at tillering stage
+
+Wheat,Rust,Fungus,Propiconazole,Use at tillering stage
+Wheat,Aphids,Insect,Imidacloprid,Apply in early infestation
+Wheat,Loose Smut,Fungus,Carbendazim,Seed treatment recommended
+
+Maize,Stem Borer,Insect,Carbaryl,Apply to whorl
+Maize,Fall Armyworm,Insect,Spinetoram,Apply at early larval stage
+Maize,Downy Mildew,Fungus,Metalaxyl,Early preventive spray
+
+Pearl Millet,Downy Mildew,Fungus,Metalaxyl,Seed treatment
+Pearl Millet,Shoot Fly,Insect,Imidacloprid,Apply at seedling stage
+
+Finger Millet,Blast,Fungus,Tricyclazole,Early spray
+Finger Millet,Stem Borer,Insect,Chlorpyrifos,Apply at infestation
+
+Sorghum,Shoot Fly,Insect,Imidacloprid,Early stage spray
+Sorghum,Grain Mold,Fungus,Mancozeb,Apply during flowering
+
+Foxtail Millet,Leaf Spot,Fungus,Mancozeb,Spray at early symptoms
+Little Millet,Shoot Fly,Insect,Dimethoate,Apply at seedling stage
+
+Chickpea,Pod Borer,Insect,Spinosad,Apply at flowering
+Chickpea,Wilt,Fungus,Carbendazim,Seed treatment
+
+Pigeon Pea,Pod Borer,Insect,Emamectin Benzoate,Apply during flowering
+Pigeon Pea,Wilt,Fungus,Carbendazim,Soil drenching
+
+Lentil,Rust,Fungus,Propiconazole,Apply at disease onset
+Cowpea,Aphids,Insect,Imidacloprid,Early spray
+Dry Beans,Leaf Miner,Insect,Spinosad,Apply early
+Dry Peas,Pod Borer,Insect,Emamectin Benzoate,Apply during flowering
+
+Groundnut,Tikka Leaf Spot,Fungus,Carbendazim,Apply twice per season
+Groundnut,Leaf Miner,Insect,Dimethoate,Apply during infestation
+
+Soybean,Yellow Mosaic Virus,Insect (Whitefly),Imidacloprid,Control vector early
+Soybean,Rust,Fungus,Propiconazole,Apply at flowering
+
+Mustard,Aphids,Insect,Imidacloprid,Apply early
+Mustard,White Rust,Fungus,Metalaxyl,Preventive spray
+
+Sunflower,Alternaria Blight,Fungus,Mancozeb,Spray at early symptoms
+Sesame,Leaf Webber,Insect,Chlorpyrifos,Apply during infestation
+Rapeseed,Aphids,Insect,Imidacloprid,Apply early
+
+Tomato,Early Blight,Fungus,Mancozeb,Weekly spray
+Tomato,Fruit Borer,Insect,Emamectin Benzoate,Apply at flowering
+
+Potato,Late Blight,Fungus,Metalaxyl,Preventive spray
+Potato,Aphids,Insect,Imidacloprid,Apply early
+
+Onion,Purple Blotch,Fungus,Mancozeb,Repeat every 10 days
+Onion,Thrips,Insect,Spinosad,Evening spray
+
+Carrot,Leaf Blight,Fungus,Mancozeb,Early spray
+Brinjal,Fruit and Shoot Borer,Insect,Emamectin Benzoate,Apply at flowering
+Cabbage,Diamondback Moth,Insect,Spinosad,Larval stage spray
+Cauliflower,Leaf Spot,Fungus,Mancozeb,Weekly spray
+Chilli,Thrips,Insect,Spinosad,Evening spray
+Okra,Whitefly,Insect,Imidacloprid,Apply early
+Beans,Pod Borer,Insect,Spinosad,Apply during flowering
+
+Banana,Panama Disease,Fungus,Carbendazim,Soil drenching
+Banana,Thrips,Insect,Imidacloprid,Spray on leaf axils
+
+Mango,Hopper,Insect,Imidacloprid,Apply during flowering
+Mango,Anthracnose,Fungus,Carbendazim,Preventive spray
+
+Apple,Scab,Fungus,Mancozeb,Apply before flowering
+Grapes,Downy Mildew,Fungus,Metalaxyl,Weekly spray
+Citrus,Canker,Bacteria,Streptocycline,Apply after pruning
+Papaya,Ring Spot Virus,Insect (Aphid),Dimethoate,Control vector early
+Pineapple,Heart Rot,Fungus,Metalaxyl,Soil drenching
+
+Tea,Red Spider Mite,Mite,Dicofol,Apply during infestation
+Tea,Blister Blight,Fungus,Hexaconazole,Early spray
+
+Coffee,Leaf Rust,Fungus,Propiconazole,Apply before monsoon
+Coffee,Berry Borer,Insect,Chlorpyrifos,Apply at berry stage
+
+Rubber,Leaf Fall Disease,Fungus,Mancozeb,Preventive spray
+Coconut,Rhinoceros Beetle,Insect,Carbaryl,Apply in crown
+
+Sugarcane,Early Shoot Borer,Insect,Chlorantraniliprole,Apply to soil
+Cotton,Bollworm,Insect,Chlorpyrifos,Apply during flowering
+Jute,Stem Rot,Fungus,Carbendazim,Apply early
+Tobacco,Aphids,Insect,Imidacloprid,Early infestation spray
