@@ -1,0 +1,4 @@
+State,District,Scheme,Cycle,n_High,n_Medium,n_Low,p_High,p_Medium,p_Low,k_High,k_Medium,k_Low,OC_High,OC_Medium,OC_Low,pH_Alkaline,pH_Acidic,pH_Neutral,EC_NonSaline,EC_Saline,S_Sufficient,S_Deficient,Fe_Sufficient,Fe_Deficient,Zn_Sufficient,Zn_Deficient,Cu_Sufficient,Cu_Deficient,B_Sufficient,B_Deficient,Mn_Sufficient,Mn_Deficient
+NICOBARS,NICOBARS,,2023-24,1,45,153,0,43,156,0,34,165,1,13,185,0,4,195,163,36,0,199,199,0,153,46,193,6,199,0,199,0
+NORTH AND MIDDLE ANDAMAN,NORTH AND MIDDLE ANDAMAN,,2023-24,0,18,26,0,21,23,0,12,32,0,0,44,0,0,44,44,0,0,44,44,0,44,0,44,0,44,0,44,0
+SOUTH ANDAMANS,SOUTH ANDAMANS,,2023-24,0,106,255,0,112,249,1,22,338,0,1,360,0,22,339,340,21,5,356,360,1,287,74,324,37,360,1,360,1

@@ -1,0 +1,3 @@
+State,District,Scheme,Cycle,n_High,n_Medium,n_Low,p_High,p_Medium,p_Low,k_High,k_Medium,k_Low,OC_High,OC_Medium,OC_Low,pH_Alkaline,pH_Acidic,pH_Neutral,EC_NonSaline,EC_Saline,S_Sufficient,S_Deficient,Fe_Sufficient,Fe_Deficient,Zn_Sufficient,Zn_Deficient,Cu_Sufficient,Cu_Deficient,B_Sufficient,B_Deficient,Mn_Sufficient,Mn_Deficient
+NORTH GOA,NORTH GOA,,2023-24,1613,972,1414,2193,570,1179,1362,1919,720,2731,232,1032,2,2327,1647,3447,540,1259,275,3798,19,2623,1178,3782,27,2119,716,3662,154
+SOUTH GOA,SOUTH GOA,,2023-24,585,3041,1153,802,938,2426,1910,1695,1172,3942,424,413,9,1780,2990,4660,118,2532,1861,4615,153,3930,831,4649,116,1555,1749,4471,303
