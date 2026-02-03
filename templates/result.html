@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="report-bg">
+
+<div class="main-card">
+
+    <div class="top-bar">
+        <a href="{{ url_for('index') }}" class="top-link">← Back</a>
+        <span class="main-title">AI Crop Yield Prediction</span>
+        <a href="{{ url_for('logout') }}" class="top-link logout">Logout</a>
+    </div>
+
+    <h3>Prediction Result</h3>
+
+    <p><b>Crop:</b> {{ prediction.crop }}</p>
+    <p><b>Predicted Yield:</b> {{ prediction.yield_kg }} kg</p>
+
+    <div class="grid">
+<div class="grid">
+    <a class="box" href="{{ url_for('soil_page', pid=prediction.id) }}">Soil</a>
+    <a class="box" href="{{ url_for('weather_page', pid=prediction.id) }}">Weather</a>
+    <a class="box" href="{{ url_for('irrigation_page', pid=prediction.id) }}">Irrigation</a>
+    <a class="box" href="{{ url_for('pesticide_page', pid=prediction.id) }}">Pesticide</a>
+    <a class="box" href="{{ url_for('past_predictions') }}">History</a>
+</div>
+
+
+
+
+    </div>
+
+    <br>
+
+    <a href="{{ url_for('download_pdf', pid=prediction.id) }}" class="btn">
+        Download PDF
+    </a>
+
+</div>
+
+</body>
+</html>

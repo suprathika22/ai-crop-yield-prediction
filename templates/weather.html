@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="report-bg">
+
+<div class="main-card">
+
+    <div class="top-bar">
+        <a href="{{ url_for('result_page', pid=pid) }}" class="top-link">← Back</a>
+        <span class="main-title">AI Crop Yield Prediction</span>
+        <a href="{{ url_for('logout') }}" class="top-link logout">Logout</a>
+    </div>
+
+    <h2>Weather Report</h2>
+
+    <div class="img-center">
+        <img src="{{ url_for('static', filename=weather.image) }}"
+             alt="Weather Image">
+    </div>
+
+    <div class="weather-box">
+        <p><b>Temperature:</b> {{ weather.temp }} °C</p>
+        <p><b>Humidity:</b> {{ weather.humidity }} %</p>
+        <p><b>Condition:</b> {{ weather.condition }}</p>
+    </div>
+
+</div>
+
+</body>
+</html>

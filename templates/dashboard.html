@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | AI Crop Yield</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="report-bg">
+    <div class="main-card">
+
+        <div class="top-bar">
+            <span class="main-title">Dashboard</span>
+            <a href="/logout" class="top-link logout">Logout</a>
+        </div>
+
+        <h2>Analysis & Recommendations</h2>
+
+        <div class="grid">
+            <a href="/soil" class="box">Soil Analysis</a>
+            <a href="/weather" class="box">Weather</a>
+            <a href="/irrigation" class="box">Irrigation</a>
+            <a href="/pesticide" class="box">Pesticide</a>
+            <a href="/crop-yield" class="box">Crop Yield</a>
+            <a href="/past-predictions" class="box">Past Predictions</a>
+            <a href="/download-pdf" class="box">Download PDF</a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

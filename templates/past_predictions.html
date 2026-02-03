@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Past Predictions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="report-bg">
+
+<div class="main-card">
+
+    <!-- TOP BAR -->
+  <div class="top-bar">
+    <a href="{{ url_for('result_page', pid=pid) }}" class="top-link">← Back</a>
+
+    <span class="main-title">AI Crop Yield Prediction</span>
+    <a href="{{ url_for('logout') }}" class="top-link logout">Logout</a>
+</div>
+
+
+
+    <h2 class="center">Past Predictions</h2>
+
+    {% if records and records|length > 0 %}
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Crop</th>
+                <th>Soil</th>
+                <th>Location</th>
+                <th>Area (acres)</th>
+                <th>Yield (kg)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for r in records %}
+            <tr>
+                <td>{{ r[0] }}</td> <!-- Date -->
+                <td>{{ r[1] }}</td> <!-- Crop -->
+                <td>{{ r[2] }}</td> <!-- Soil -->
+                <td>{{ r[3] }}</td> <!-- Location -->
+                <td>{{ r[4] }}</td> <!-- Acres -->
+                <td>{{ r[5] }}</td> <!-- Yield -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+        <p style="text-align:center;">No past predictions found.</p>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

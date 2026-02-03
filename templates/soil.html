@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soil Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="report-bg">
+
+<div class="main-card">
+
+    <div class="top-bar">
+        <a href="{{ url_for('result_page', pid=pid) }}" class="top-link">← Back</a>
+        <span class="main-title">AI Crop Yield Prediction</span>
+        <a href="{{ url_for('logout') }}" class="top-link logout">Logout</a>
+    </div>
+
+    <h2>Soil Analysis</h2>
+
+    <div class="img-center">
+        <img src="{{ url_for('static', filename='soil/' + soil.type + '.jpg') }}"
+             alt="Soil Image"
+             onerror="this.src='{{ url_for('static', filename='soil/default.jpg') }}'">
+    </div>
+
+    <table>
+        <tr><th>Soil Type</th><td>{{ soil.type }}</td></tr>
+        <tr><th>Nitrogen (N)</th><td>{{ soil.N }}</td></tr>
+        <tr><th>Phosphorus (P)</th><td>{{ soil.P }}</td></tr>
+        <tr><th>Potassium (K)</th><td>{{ soil.K }}</td></tr>
+        <tr><th>pH Value</th><td>{{ soil.pH }}</td></tr>
+    </table>
+
+</div>
+
+</body>
+</html>

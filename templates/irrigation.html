@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Irrigation Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="report-bg">
+
+<div class="main-card">
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <a href="{{ url_for('result_page', pid=pid) }}" class="top-link">← Back</a>
+        <span class="main-title">AI Crop Yield Prediction</span>
+        <a href="{{ url_for('logout') }}" class="top-link logout">Logout</a>
+    </div>
+
+    <h2 class="center">Irrigation Recommendation</h2>
+
+    <!-- METHOD -->
+    <p class="center">
+        <b>Suggested Method:</b> {{ method }}
+    </p>
+
+    <!-- IMAGE -->
+    <img 
+  src="{{ url_for('static', filename=irrigation.image) }}"
+  alt="Irrigation Method"
+  class="method-img"
+/>
+
+
+    <!-- STEPS -->
+    <h3 class="center" style="margin-top:20px;">Steps to Implement</h3>
+
+    <ul class="steps-list">
+        {% for step in steps %}
+            <li>{{ step }}</li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+</body>
+</html>

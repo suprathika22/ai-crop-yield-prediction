@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesticide Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="report-bg">
+
+<div class="main-card">
+
+    <div class="top-bar">
+        <a href="{{ url_for('result_page', pid=pid) }}" class="top-link">← Back</a>
+        <span class="main-title">AI Crop Yield Prediction</span>
+        <a href="{{ url_for('logout') }}" class="top-link logout">Logout</a>
+    </div>
+
+    <h2>Pesticide Recommendation</h2>
+
+    <p><b>Crop:</b> {{ prediction.crop }}</p>
+
+    {% if pesticides|length == 0 %}
+        <p style="text-align:center;color:#ff6666;">
+            No pesticide data available for this crop.
+        </p>
+    {% else %}
+    <table>
+        <thead>
+            <tr>
+                <th>Common Disease</th>
+                <th>Pest Type</th>
+                <th>Recommended Pesticide</th>
+                <th>Usage Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in pesticides %}
+            <tr>
+                <td>{{ p.common_disease }}</td>
+                <td>{{ p.pest_type }}</td>
+                <td>{{ p.recommended_pesticide }}</td>
+                <td>{{ p.usage_note }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
