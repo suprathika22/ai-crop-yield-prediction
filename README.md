@@ -48,3 +48,15 @@ ai-crop-yield-prediction/
 │── static/
 │── database.db
 │── README.md
+
+---
+
+🎯 Future Enhancements
+
+Integration with IoT-based soil sensors
+
+Advanced ML models for improved accuracy
+
+Mobile application support
+
+Satellite data integration
