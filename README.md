@@ -49,7 +49,6 @@ ai-crop-yield-prediction/
 │── database.db
 │── README.md
 
----
 
 🎯 Future Enhancements
 
